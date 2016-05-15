@@ -27,6 +27,7 @@
 		910349AE1CE5D09F0058380B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910349AB1CE5D09E0058380B /* FBSDKCoreKit.framework */; };
 		910349AF1CE5D09F0058380B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910349AC1CE5D09E0058380B /* FBSDKLoginKit.framework */; };
 		910357C91CE67ACE00034821 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910357C81CE67ACE00034821 /* DataService.swift */; };
+		913F4F681CE8593F0045136B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F4F671CE8593F0045136B /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		910349AB1CE5D09E0058380B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		910349AC1CE5D09E0058380B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		910357C81CE67ACE00034821 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		913F4F671CE8593F0045136B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A8A0C67A8888D031E9B054AF /* Pods_SocialAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				910349811CE58D430058380B /* SocialAPP */,
+				910349971CE5AD230058380B /* Resources */,
+				910349A91CE5D0840058380B /* Frameworks */,
 				910349801CE58D430058380B /* Products */,
 				726C7CA13BDCB6D2EBA264A8 /* Pods */,
 				4DA60074112C571CADC2E3A3 /* Frameworks */,
@@ -110,9 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				910357C71CE67AAA00034821 /* Services */,
-				910349A91CE5D0840058380B /* Frameworks */,
 				910349A21CE5B1030058380B /* Utilities */,
-				910349971CE5AD230058380B /* Resources */,
 				910349961CE5AD1E0058380B /* Model */,
 				910349951CE5AD180058380B /* View */,
 				910349941CE5AD130058380B /* Controller */,
@@ -148,6 +150,7 @@
 		910349961CE5AD1E0058380B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				913F4F671CE8593F0045136B /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				9103499B1CE5AD550058380B /* NotoSans-Regular.ttf */,
 			);
 			name = Resources;
+			path = SocialAPP;
 			sourceTree = "<group>";
 		};
 		910349A21CE5B1030058380B /* Utilities */ = {
@@ -179,6 +183,7 @@
 				910349AC1CE5D09E0058380B /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
+			path = SocialAPP;
 			sourceTree = "<group>";
 		};
 		910357C71CE67AAA00034821 /* Services */ = {
@@ -324,6 +329,7 @@
 				910349831CE58D430058380B /* AppDelegate.swift in Sources */,
 				910349A41CE5B1110058380B /* Constants.swift in Sources */,
 				910349A61CE5B7720058380B /* MaterialButton.swift in Sources */,
+				913F4F681CE8593F0045136B /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
